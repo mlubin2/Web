@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <body style="background-color:rgb(235, 235, 235);">
+    <body style="background-color: lightgray">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,33 +11,37 @@
 </head>
 
 <body>
-        <div class="container">
-                <div class="jumbotron">
-                  <h1>Webpages</h1> 
+    <div class="container">
+            <div class="jumbotron">
+              <h1>Webpages</h1> 
                   <p>this will be the description of the following pages and why I made these.</p> 
-                </div>
-        <div>
-            <div class="container">
-                <div class="md"> 
-                    <button type="button">
-                    <a class="navbar-brand" href="weather/index.html">Weather</a>
-                        <p>This is some text.</p> 
-                    <a class="navbar-brand" href="ufo/index.html">UFO Search</a>
-                        <p>This is another text.</p>
-                    </button>
-                </div>
-                
             </div>
-        </div>
-    <div>
-        <div class="container">
-  
-            <a class="navbar-brand" href="index.html">Home</a>
-        </div>
+            <div>
+                <div class="container">
+                    <div class= "row row-grid">
+                        
+                        <a class="navbar-brand"a href="weather/index.html">Weather Data</a>
+                    </div>
+                    <div>   
+                            <p>
+                            The Weather Data website is a collection of 5,000 locations to visualize average temperature, humidity, windspeed, and cloudiness globally. Using Python, I dropped a random pin on the globe, and found the nearest city. Using the Underground Weather API, I pulled the weather data for that city. Once the data was cleaned by dropping nulls and making sure the data accurate, the results were plotted using Matplotlib Scatter Plots.
+                            </p>
+                    </div>
+                    
+                    
+                    <div class= "row row-grid">
+                        <a class="navbar-brand" href="ufo/index.html">UFO Search</a>
+                    </div>
+                    <div>
+                            <p>
+                            UFO Search is a search of all of the UFO sightings in recent history. 
+                            </p>  
+                    </div>         
+                        
+                </div>
+            </div>
     </div>
 </body>
-
-
         
 
     <script
